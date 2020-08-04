@@ -1,5 +1,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
+hash = {:adam => 2, :bruce => 40, :kelly => 1, :bobby => 20}
 
 hash = {:adam => 2, :bruce => 40, :kelly => 1, :bobby => 20}
 

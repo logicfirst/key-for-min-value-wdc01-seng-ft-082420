@@ -7,7 +7,7 @@ answer_key = nil
 min_value = nil
 
   hash.each do |key, value|
-    if value <= min_value
+    if value <= min_value || min_value == nil
       min_value = value
       answer_key = key
     end

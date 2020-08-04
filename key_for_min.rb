@@ -1,6 +1,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
-#hash = {:adam => 2, :bruce => 40, :kelly => 1, :bobby => 20}
+hash = {:adam => 2, :bruce => 40, :kelly => 1, :bobby => 20}
 
 def key_for_min_value(hash)
 answer_key = nil
@@ -16,6 +16,6 @@ min_value = nil
   end 
  answer_key  
 end
-#key_for_min_value(hash)
+key_for_min_value(hash)
 
 
